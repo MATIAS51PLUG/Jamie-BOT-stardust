@@ -134,7 +134,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Jamie-BOT",
         language: "english",
-        chatLink: "https://rawgit.com/MATIAS51PLUG/Jamie-BOT-stardust/master/en-EN.json",
+        chatLink: "https://rawgit.com/MATIAS51PLUG/Jamie-BOT-stardust/master/english.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
