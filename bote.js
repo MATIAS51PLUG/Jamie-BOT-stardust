@@ -134,7 +134,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Jamie-BOT",
         language: "english",
-        chatLink: "https://rawgit.com/MATIAS51PLUG/Jamie-BOT-stardust/master/english.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/MATIAS51PLUG/Jamie-BOT-stardust/english.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
@@ -196,7 +196,7 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
+    $.getScript("https://cdn.jsdelivr.net/gh/Yemasthui/basicBot/basicBot.js", extend);
 
 }).call(this);
 
